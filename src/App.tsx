@@ -151,8 +151,8 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-[radial-gradient(circle_at_50%_50%,#111_0%,#000_100%)]">
-      <div className="flex flex-col lg:flex-row gap-8 items-start max-w-5xl w-full">
+    <div className="min-h-screen flex items-center justify-center p-2 sm:p-4 bg-[radial-gradient(circle_at_50%_50%,#111_0%,#000_100%)]">
+      <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 items-start w-full max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-5xl">
         
         {/* Left Stats */}
         <div className="hidden lg:flex flex-col gap-4 w-48">
