@@ -1,5 +1,5 @@
 const CACHE_NAME = 'tetris-v1';
-const assets = ['/', '/index.html'];
+const assets = ['./', 'index.html'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
