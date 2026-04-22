@@ -6,6 +6,7 @@ import {defineConfig, loadEnv} from 'vite';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
+    // PWA 경로 호환을 위해 base를 './'로 설정
     base: './',
     plugins: [react(), tailwindcss()],
     define: {
