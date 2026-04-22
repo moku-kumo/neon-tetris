@@ -6,8 +6,8 @@ import {defineConfig, loadEnv} from 'vite';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    // PWA 경로 호환을 위해 base를 './'로 설정
-    base: './',
+    // GitHub Pages 서브 경로 배포를 위해 base를 '/neon-tetris/'로 설정
+    base: '/neon-tetris/',
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
