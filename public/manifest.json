@@ -2,7 +2,7 @@
   "name": "Neon Tetris",
   "short_name": "Tetris",
   "description": "Premium Neon Tetris Game",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#050505",
   "theme_color": "#050505",
